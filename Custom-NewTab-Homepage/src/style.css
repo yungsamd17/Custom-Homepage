@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: white;
+}
+
+body {
+  background: #000;
+  background-size: cover;
+}
+
+.container-main {
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65%;
+  width: 100%;
+  background: #000;
+  border-radius: 10px;
+  background-color: #2d2d2d;
+}
+
+.icon {
+  height: auto;
+  scale: 2.5;
+  display: flex;
+  justify-content: center;
+}
+
+.icon i {
+  color: #000;
+}
+.icon i:hover {
+  color: #bebfc2;
+}
+
+.container-sidebar {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 50px;
+  margin-left: 1%;
+}
+
+.container-search {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 40%;
+  min-width: 300px;
+}
+
+.searchbar-inner-container {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  background: #000;
+  border-radius: 10px;
+  background-color: #2d2d2d;
+}
+
+input {
+  border: none;
+  width: 90%;
+  height: 100%;
+  outline: none;
+  font-size: 1.1rem;
+  padding-left: 10px;
+  color: #bebfc2;
+  font-weight: bol20;
+  background-color: transparent;
+  transition: all 0.2s;
+  background-color: #2d2d2d;
+}
+
+input::placeholder {
+  color: #000;
+}
+
+.search-button-container {
+  height: 100%;
+  width: 50px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: none;
+  border: none;
+  width: 70%;
+  height: 70%;
+  cursor: pointer;
+}
+
+.search-button-svg {
+  fill: #000;
+}
+
+.search-button-svg:hover {
+  fill: #bebfc2;
+}
+
+.container-time {
+  height: 50%;
+  display: flex;
+  min-width: 10vw;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-now {
+  color: #000;
+  background-color: #2d2d2d;
+  margin: 0;
+  padding: 20px 40px 20px 40px;
+  border-radius: 10px;
+  font-size: 7rem;
+  font-weight: bold;
+}
