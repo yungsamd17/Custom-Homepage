@@ -14,3 +14,6 @@ A Custom New Tab Homepage extension for chromium based browsers.
 - Click on `Load unpacked`
 - Choose `Custom-NewTab-Homepage` from main cloned / downloaded repository from the directory where your downloaded or cloned it
 - Once applied, open a new tab and click on `Keep It` option
+
+## Credits
+Forked from [ATRS7391/Custom-Chrome-New-Tab-Extension](https://github.com/ATRS7391/Custom-Chrome-New-Tab-Extension)
