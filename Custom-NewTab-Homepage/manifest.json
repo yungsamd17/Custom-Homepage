@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Custom NewTab Homepage",
-  "version": "1.1",
+  "version": "1.2",
   "description": "A Custom New Tab Homepage extension for Chromium based browsers.",
   "icons": {
      "16": "src/icon.png",

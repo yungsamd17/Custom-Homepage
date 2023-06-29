@@ -39,7 +39,7 @@ body {
 }
 input {
   border: none;
-  width: 90%;
+  width: 89%;
   height: 100%;
   outline: none;
   font-size: 1.2rem;
@@ -49,7 +49,7 @@ input {
   background-color: #3f3f3f;
 }
 input::placeholder {
-  color: #000;
+  color: #b5b5b5;
   font-weight: normal;
 }
 .search-button-container {
@@ -68,7 +68,7 @@ button {
   cursor: pointer;
 }
 .search-button-svg {
-  fill: #000;
+  fill: #b5b5b5;
 }
 .search-button-svg:hover {
   fill: #fff;
@@ -89,10 +89,10 @@ button {
   align-items: center;
 }
 .time-now {
-  color: #000;
-  background-color: #3f3f3f;
+  color: #fff;
+  background-color: #000;
   margin: 0;
-  padding: 20px 40px 20px 40px;
+  padding: 0px 30px 10px 30px;
   border-radius: 25px;
   font-size: 7rem;
   font-weight: bold;
