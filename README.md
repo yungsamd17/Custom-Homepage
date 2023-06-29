@@ -2,8 +2,12 @@
 
 A Custom New Tab Homepage extension for chromium based browsers.
 
+### Features:
+- 🕝 **Clock**
+- 🔍 **Google search bar**
+
 ## [Click here for Live Preview](https://yungsamd17.github.io/Custom-Homepage/Custom-NewTab-Homepage/)
-![screenshot](https://github.com/yungsamd17/Custom-Homepage/assets/64147848/ad08c13d-6e6f-4442-aed7-7d293fb5eeb0)
+![screenshot](https://github.com/yungsamd17/Custom-Homepage/assets/64147848/148ff250-9946-453d-91a2-b6ff1993ac4e)
   
 ## How to apply
 - Clone or download ZIP of this repository
