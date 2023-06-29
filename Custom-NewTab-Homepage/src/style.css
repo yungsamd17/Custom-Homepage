@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial;
+  font-family: 'Verdana', sans-serif;
   overflow: hidden;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -10,9 +10,8 @@
   user-select: none;
   color: white;
 }
-
 body {
-  background: #000;
+  background: #2d2d2d;
   background-size: cover;
 }
 
@@ -22,41 +21,6 @@ body {
   align-items: center;
   display: flex;
 }
-
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 65%;
-  width: 100%;
-  background: #000;
-  border-radius: 10px;
-  background-color: #2d2d2d;
-}
-
-.icon {
-  height: auto;
-  scale: 2.5;
-  display: flex;
-  justify-content: center;
-}
-
-.icon i {
-  color: #000;
-}
-.icon i:hover {
-  color: #bebfc2;
-}
-
-.container-sidebar {
-  display: flex;
-  height: 100%;
-  align-items: center;
-  width: 50px;
-  margin-left: 1%;
-}
-
 .container-search {
   display: flex;
   height: 50px;
@@ -64,35 +28,30 @@ body {
   width: 40%;
   min-width: 300px;
 }
-
 .searchbar-inner-container {
   width: 100%;
   height: 100%;
   justify-content: space-between;
   display: flex;
-  background: #000;
-  border-radius: 10px;
-  background-color: #2d2d2d;
+  background: #2d2d2d;
+  border-radius: 50px;
+  background-color: #3f3f3f;
 }
-
 input {
   border: none;
   width: 90%;
   height: 100%;
   outline: none;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding-left: 10px;
-  color: #bebfc2;
-  font-weight: bol20;
-  background-color: transparent;
-  transition: all 0.2s;
-  background-color: #2d2d2d;
+  color: #fff;
+  font-weight: bold;
+  background-color: #3f3f3f;
 }
-
 input::placeholder {
   color: #000;
+  font-weight: normal;
 }
-
 .search-button-container {
   height: 100%;
   width: 50px;
@@ -101,7 +60,6 @@ input::placeholder {
   justify-content: center;
   align-items: center;
 }
-
 button {
   background: none;
   border: none;
@@ -109,15 +67,12 @@ button {
   height: 70%;
   cursor: pointer;
 }
-
 .search-button-svg {
   fill: #000;
 }
-
 .search-button-svg:hover {
-  fill: #bebfc2;
+  fill: #fff;
 }
-
 .container-time {
   height: 50%;
   display: flex;
@@ -126,7 +81,6 @@ button {
   flex-direction: column;
   justify-content: center;
 }
-
 .container-inner {
   height: 100%;
   width: 100%;
@@ -134,13 +88,12 @@ button {
   flex-direction: column;
   align-items: center;
 }
-
 .time-now {
   color: #000;
-  background-color: #2d2d2d;
+  background-color: #3f3f3f;
   margin: 0;
   padding: 20px 40px 20px 40px;
-  border-radius: 10px;
+  border-radius: 25px;
   font-size: 7rem;
   font-weight: bold;
 }
