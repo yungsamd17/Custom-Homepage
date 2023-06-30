@@ -26,10 +26,13 @@ function is_valid_url(_string) {
 
 function time_now() {
   let time = new Date();
-  document.getElementById('time-now').innerHTML = time.toLocaleString('en-US', {
-    hour: 'numeric',
-    minute: 'numeric',
-    hour12: false
+  let hour = time.getHours();
+  let minute = time.getMinutes();
+
+  document.getElementById('time-now').innerHTML = hour.toLocaleString('en-US', {
+    minimumIntegerDigits: 2,
+  }) + ":" + minute.toLocaleString('en-US', {
+    minimumIntegerDigits: 2,
   });
   setTimeout(time_now, 1000);
 }
