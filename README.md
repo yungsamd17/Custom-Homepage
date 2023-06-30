@@ -11,7 +11,7 @@ A Custom New Tab Homepage extension for chromium based browsers.
 
 <b>Default</b>
 
-![screenshot1](https://github.com/yungsamd17/Custom-Homepage/assets/64147848/148ff250-9946-453d-91a2-b6ff1993ac4e)
+![screenshot1](https://github.com/yungsamd17/Custom-Homepage/assets/64147848/3f68c14f-a1f0-4bc4-8d70-428644f2c84c)
 
 <b>Brave</b>
 
