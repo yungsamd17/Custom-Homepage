@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Homepage",
+  "version": "1.3",
+  "description": "A Custom New Tab Homepage extension for Chromium based browsers.",
+  "icons": {
+     "16": "src/icon.png",
+     "48": "src/icon.png",
+     "128": "src/icon.png"
+   },
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "manifest_version": 3
+}
