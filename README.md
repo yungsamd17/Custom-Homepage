@@ -26,6 +26,9 @@ A Custom New Tab Homepage extension for chromium based browsers.
 
 ## [Download](https://github.com/yungsamd17/Custom-Homepage/releases/latest) *the desired version and follow the instructions on how to Install.*
 
+**[Chrome](https://github.com/yungsamd17/Custom-Homepage/releases/latest/download/Custom-Homepage_DEFAULT.zip)**<br>
+**[Brave](https://github.com/yungsamd17/Custom-Homepage/releases/latest/download/Custom-Homepage_BRAVE.zip)**
+
 ### How to Install
 
 Here is a short guide how to install an unpacked extension on Google Chrome or Chromium-based browsers (e.g. Brave, Edge, Opera).
