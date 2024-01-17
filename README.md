@@ -6,19 +6,6 @@ A Custom New Tab Homepage extension for chromium based browsers.
 - 🕝 **Clock**
 - 🔍 **Google search bar**
 
-<details>
-<summary><b>Screenshots</b></summary><p>
-
-<b>Default</b>
-
-![screenshot1](https://github.com/yungsamd17/Custom-Homepage/assets/64147848/3f68c14f-a1f0-4bc4-8d70-428644f2c84c)
-
-<b>Brave</b>
-
-![screenshot2](https://github.com/yungsamd17/Custom-Homepage/assets/64147848/25a2a57c-f297-4288-b431-cfe11e59f2f2)
-
-</details>
-
 ## Live Preview: 
 **[Default (Chrome)](https://yungsamd17.github.io/Custom-Homepage/Custom-Homepage_DEFAULT_THEME/)** And other chromium based browsers<br>
 **[Brave](https://yungsamd17.github.io/Custom-Homepage/Custom-Homepage_BRAVE_THEME/)**
